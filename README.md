@@ -46,23 +46,23 @@ Before you begin, ensure you have installed Python 3.x on your system. Then, ins
 
 2. *Install the required modules*:
     Open your command prompt or terminal and run the following commands:
-    bash
-    pip install flask
-    pip install Flask-SQLAlchemy
-    pip install mysqlclient
-    pip install Flask-Login
+   
+    - pip install flask
+    - pip install Flask-SQLAlchemy
+    - pip install mysqlclient
+    - pip install Flask-Login
     
 
-3. *Database Setup*:
+4. *Database Setup*:
    - Create a MySQL database and configure the connection in the Flask app.
    - Run the database migrations or import the provided SQL schema.
 
-4. *Run the Application*:
+5. *Run the Application*:
     bash
     python app.py
     
 
-5. *Access the Application*:
+6. *Access the Application*:
    - Open your browser and go to http://localhost:5000/.
 
 ---
@@ -83,13 +83,27 @@ Before you begin, ensure you have installed Python 3.x on your system. Then, ins
 
 bash
 .
-├── app.py                   # Main Flask application
-├── templates/               # HTML templates
-├── static/                  # Static files (CSS, JS, images)
-├── models.py                # Database models and schema
-├── config.py                # Configuration file for the app
-├── requirements.txt         # List of dependencies
-└── README.md                # Project documentation
+
+├── app.py                  
+Main Flask application
+
+├── templates/               
+HTML templates
+
+├── static/                  
+Static files (CSS, JS, images)
+
+├── models.py                
+Database models and schema
+
+├── config.py                
+Configuration file for the app
+
+├── requirements.txt         
+List of dependencies
+
+└── README.md               
+Project documentation
 
 
 ---
